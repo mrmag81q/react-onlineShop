@@ -1,0 +1,25 @@
+export const Filterable = [
+    {
+        propertyname:"color",
+        datatype:"radio",
+        valitionArray:["red","blue","grean"],
+        selectedValius:[],
+        c:["4"]
+    }
+    ,
+    {
+        propertyname:"brand",
+        datatype:"checkbox",
+        valitionArray:["apple","samsung","mi"],
+        selectedValius:[],
+        c:["4"]
+    }
+    ,
+    {
+        propertyname:"price",
+        datatype:"range",
+        valitionArray:[1000,500000],
+        c:["4"],
+        selectedValius:[],
+    }
+]

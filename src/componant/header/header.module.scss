@@ -1,0 +1,136 @@
+@import '../../pallet.scss';
+.flex{
+    flex-grow: 1;
+}
+.search{
+    width:600px !important;
+}
+.button{
+    background-color: darken($color: $secondary, $amount: 70) !important;
+    &:hover{
+        background-color: darken($color:$secondary , $amount: 30) !important;
+    }
+}
+
+.box{
+  visibility: visible;
+  margin-left: 20px !important;
+}
+
+.bottombar{visibility: hidden;}
+
+@media screen and (max-width:1073px) {
+    .search{width: 500px !important;}
+}
+@media screen and (max-width:973px) {
+    .search{width: 400px !important;}
+}
+@media screen and (max-width:871px) {
+    .search{width: 300px !important;}
+}
+@media screen and (max-width:771px) {
+    .box{margin-left: 0px !important;}
+    .button{display: none !important;}
+    .bottombar{visibility: visible;}
+    .search{width: 290px !important;
+        margin-right: 10px !important;
+     }
+}
+
+
+.text56{
+    color: white !important;
+}
+
+.text{
+    text-decoration: none !important;
+    margin-bottom: -5px;
+    padding-bottom: 0 !important;
+}
+// .text:active{
+//     color: darken($color: $secondary, $amount: 30);
+// }
+.typo{
+    margin-right: 15px !important;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.typo:hover{
+    border-radius: 10px;
+    background-color: rgb(164, 161, 161);
+
+
+}
+.buttonClose{
+    background-color: darken($color: $secondary, $amount: 70) !important;
+    &:hover{
+        background-color: darken($color:$secondary , $amount: 30) !important;
+    }
+    direction: ltr;
+    margin-right: 65px !important;
+}
+.box_digital{
+    height: 800px;
+    width: 200px;
+    border: 2px solid black;
+    visibility: hidden;
+}
+.typo12{
+    margin-top: 7px;
+    font-size: larger;
+    
+}
+
+.typo12:hover{
+    border-radius: 10px;
+    background-color: rgb(150, 150, 150);
+
+
+}
+.typo1{
+    margin-right: 15px !important;
+    
+    
+    margin-bottom: 0px !important;
+
+    padding-bottom: 0px !important;
+
+    font-size: medium !important;
+    
+}
+
+.typo1:hover{
+    border-radius: 10px;
+    background-color: rgb(164, 161, 161);
+    
+
+}
+.taga{
+    
+    font-size: 25px !important;
+    
+    margin-bottom: -9px;
+    
+}
+.taga:hover{
+    
+    border-radius: 10px;
+    background-color: rgb(228, 225, 225);
+}
+.textal{
+    text-align: left !important;
+    margin-right: -3px !important;
+}
+.textcolor{
+    color: darken($color: $primary, $amount: 30) !important; 
+}
+.buttonsabt{
+    background-color: darken($color: $secondary, $amount: 70) !important;
+    &:hover{
+        background-color: darken($color:$secondary , $amount: 30) !important;
+    }
+    direction: ltr;
+    margin-right: 20px !important;
+}

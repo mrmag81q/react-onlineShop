@@ -1,0 +1,44 @@
+@import '../../pallet.scss';
+
+
+.sheet {
+    width: 100%;
+   
+    border-top: solid 5px $gray;
+    border-top-left-radius: 2rem ;
+    border-top-right-radius: 2rem;
+    background-color: $primary;
+    transition: all .5s ease;
+    z-index: 50000 !important;
+    .bst {
+
+        position: relative;
+        margin-top: -24px;
+        left: calc(50% - 20px);
+        background-color: $secondary !important;
+        border: solid 5px $gray;
+        transform: rotate(-45 deg);
+        transition: all .5s ease;
+
+    }
+}
+
+.sheet2 {
+    width: 100%;
+   height: 70px !important;
+    background-color: $primary;
+    border-top: solid 5px $gray;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: all .5s ease;
+    
+    .bst {
+        position: relative;
+        margin-top: -24px;
+        left: calc(50% - 20px);
+        background-color: $secondary !important;
+        border: solid 5px $gray;
+        transform: rotate(45deg);
+        transition: all .5s ease;
+    }
+}
